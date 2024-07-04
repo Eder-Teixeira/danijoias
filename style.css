@@ -28,13 +28,24 @@ section {
 }
 
 .logo img {
-    width: 70px;
+    width: 60px;
 
 }
 
 .logo img:hover {
     transform: scale(1.1, 1.1);
+}
 
+.logo-nome {
+    color: #fff;
+    margin-top: 60px;
+    position: absolute;
+    font-size: 1.1rem;
+    text-shadow: 1px .5px #818180;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+   
+    
 }
 
 .cabecalho section {
@@ -80,11 +91,12 @@ i#burguer {
     border: none;
     margin: 0px;
     cursor: pointer;
-    
+
 }
-i#burguer:hover{
+
+i#burguer:hover {
     background-color: #ffffff0c;
-   
+
 }
 
 
@@ -116,7 +128,7 @@ i#burguer:hover{
     color: #fff;
     font-size: 2.8rem;
     text-align: center;
-    
+
 }
 
 .container p {
@@ -202,18 +214,20 @@ i#burguer:hover{
 
     }
 
-   .container p {
+    .container p {
         display: none;
 
     }
+
     i#burguer {
         display: flex;
     }
-    .container h1{
+
+    .container h1 {
         font-size: 2.5rem;
         text-shadow: 2px 1px #000;
-        
-        
+
+
     }
 
     .produtos1 {
