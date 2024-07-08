@@ -79,26 +79,6 @@ section {
     letter-spacing: 0.1rem;
 }
 
-i#burguer {
-
-    color: #fff;
-    display: none;
-    text-align: center;
-    position: absolute;
-    right: 25px;
-    font-size: 40px;
-    padding: 0;
-
-    cursor: pointer;
-
-}
-
-i#burguer:hover {
-    border: 0.3px solid #e9e50c;
-    color: #e9e50c;
-    text-align: center;
-
-}
 
 
 .banner {
@@ -196,6 +176,17 @@ i#burguer:hover {
     color: #fff;
     margin-top: 10px;
 }
+i#burguer {
+
+    color: #fff;
+    display: none;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    font-size: 40px;
+    cursor: pointer;
+
+}
 
 
 
@@ -215,13 +206,14 @@ i#burguer:hover {
 
 
     .menu ul {
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100vh;
-        left: 20px;
+        left: 30px;
         text-align: center;
-        top: 30px;
+        top: 40px;
         margin-right: 20px;
+       
 
 
 
@@ -229,7 +221,7 @@ i#burguer:hover {
 
     .menu ul li {
         display: block;
-
+      
         align-items: center;
 
 
@@ -238,6 +230,8 @@ i#burguer:hover {
     .menu li a {
         font-size: 15px;
         letter-spacing: 0.1rem;
+    
+        margin: 0.5rem 0;
     }
 
     .logo img:hover {
@@ -251,10 +245,13 @@ i#burguer:hover {
     }
 
     i#burguer {
-        display: flex;
-
+        display:block;
+        cursor: pointer;
+        
 
     }
+    
+
 
     .container h1 {
         font-size: 2.5rem;
