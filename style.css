@@ -231,10 +231,11 @@ i#burguer {
         font-size: 17px;
         letter-spacing: 0.1rem;
         margin: 0.5rem 0;
+        font-weight: bold;
         
     }
     .menu li a:hover{
-        background-color: #e9e50c;
+        background-color: #ffffff6c;
     }
 
 
