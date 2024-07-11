@@ -213,22 +213,16 @@ i#burguer {
         align-items: center;
         text-align: center;
         top: 100px;
-        flex-direction:row;
+        
         justify-content: center;
-        transition: 0.4s;
-        background-color: #0f0f0f9a;
-    
-       
+        transition: 0.6s;
+        background-color: #0f0f0f9a;  
 
 
     }
     .menu ul li {
         display:inline-block;
         padding: 9px;
-      
-        
-        
-       
 
         
 
@@ -256,10 +250,6 @@ i#burguer {
     .menu {
         display: none;
     }
-
-
-    
-    
 
     
     .logo img:hover {
