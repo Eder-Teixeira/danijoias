@@ -195,15 +195,13 @@ i#burguer {
         height: 100px;
     }
         
-    i#burguer  {
+    i#burguer {
         display: block;
         cursor: pointer;
-
-
+       
     }
-    i#burguer #itens{
-        display: block;
-    }
+    
+    
     .menu ul {
        
         position: absolute;
@@ -213,7 +211,6 @@ i#burguer {
         align-items: center;
         text-align: center;
         top: 100px;
-        
         justify-content: center;
         transition: 0.6s;
         background-color: #0f0f0f9a;  
@@ -223,9 +220,7 @@ i#burguer {
     .menu ul li {
         display:inline-block;
         padding: 9px;
-       
 
-        
 
     }
     .menu li a {
