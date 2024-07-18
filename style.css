@@ -181,16 +181,9 @@ section {
     display: none;
 }
 
-i#burguer {
+.mobile button {
 
-    color: #fff;
     display: none;
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    right: 25px;
-    font-size: 40px;
-  
 
 }
 
@@ -201,12 +194,20 @@ i#burguer {
         height: 100px;
     }
 
-    i#burguer {
+    .mobile button{
         display: block;
         cursor: pointer;
+        background-color: transparent;
+        border: none;
 
-
-
+    }
+    .mobile button img{
+      width: 40px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      margin-right: 20px;
+      
+      
     }
 
 
@@ -244,7 +245,7 @@ i#burguer {
         transition: 0.2s ;
 
     }
-    .mobile ul.open{
+    .open{
         right: 0;
     }
 
