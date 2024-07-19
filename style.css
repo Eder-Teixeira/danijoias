@@ -177,10 +177,16 @@ section {
     margin-top: 10px;
 }
 
-.mobile ul {
+.mobile {
     display: none;
 }
+ .mobile img {
+        width: 30px;
+        margin-right: 20px;
+        position: relative;
+        background-color: #ffffff;
 
+    }
 
 
 @media screen and (max-width:700px) {
@@ -188,60 +194,56 @@ section {
         height: 100px;
     }
 
-    #icon {
+    .mobile {
         display: block;
         cursor: pointer;
-        background-color: transparent;
-        border: none;
+
 
     }
-    .mobile img{
-      width: 40px;
-      background-color: #ffffff;
-      
-      margin-right: 20px;
-      
-      
-    }
-
 
     .mobile ul {
         display: block;
         position: absolute;
         flex-direction: column;
-        width: 28%;
-        height: 90px;
+        width:100%;
+        height: 110px;
         right: -100%;
         padding-right: 20px;
         padding-top: 4px;
         align-items: center;
-        text-align: right;
+        text-align: center;
         top: 100px;
-        background-color: #1111119a;
+        background-color: #111111f5;
 
 
     }
-    .mobile ul li{
-       margin: 6.5px 0;
+    .mobile .open{
+        right: 0;
+        transition: all 2s;
+    }
+
+    .mobile ul li {
+        margin: 10px 0;
 
     }
-    .mobile ul li a{
+
+    .mobile ul li a {
         color: #fff;
         font-weight: bold;
         font-size: 15px;
         font-family: sans-serif;
-        text-shadow: 2px 1px #000;
+        
     }
-    .mobile ul li a:hover{
-        background-color: #080808;
-        padding: 5.5px;
-        border-radius: 5px;
-        transition: 0.2s ;
+
+    .mobile ul li a:hover {
+        background-color: #e6ff06;
+        padding: 6px;
+        transition: 0.1s;
+        color: #000000;
+        border-radius: 4px;
 
     }
-    .open{
-        right: 0;
-    }
+
 
     .banner {
         background-image: url(imagens/banner-fazer-pedidonovo.jpg);
