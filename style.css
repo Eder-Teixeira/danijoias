@@ -238,7 +238,7 @@ section {
     .mobile ul li a:hover {
         background-color: #e6ff06;
         padding: 6px;
-        transition: 0.1s;
+        transition: 0.3s;
         color: #000000;
         border-radius: 4px;
 
