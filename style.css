@@ -171,11 +171,15 @@ section {
     box-shadow: 0 0 8px #e9e50c88;
 }
 
-.box h3,
-.cod {
+.box .cod {
     color: #fff;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
+.br{
+    margin-top: 15px;
+    color: #fff;
+} 
+
 
 
 
