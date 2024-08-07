@@ -1,0 +1,11 @@
+body {
+    background-color: #fcf9f9;
+}
+banner {
+    background-image: url(imagens/banner-fazer-pedidonovo.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
